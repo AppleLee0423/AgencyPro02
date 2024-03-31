@@ -2,12 +2,14 @@ package com.agencypro02.agencypro02;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
+@EnableJpaAuditing
 @SpringBootApplication
-public class AgencyPro02Application {
+public class Main {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AgencyPro02Application.class, args);
+		SpringApplication.run(Main.class, args);
 	}
 
 }

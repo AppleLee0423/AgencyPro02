@@ -1,3 +1,4 @@
+/*
 package com.agencypro02.agencypro02.config;
 
 import com.agencypro02.agencypro02.service.UserDetailService;
@@ -70,3 +71,4 @@ public class WebSecurityConfig {
         return new BCryptPasswordEncoder();
     }
 }
+*/
